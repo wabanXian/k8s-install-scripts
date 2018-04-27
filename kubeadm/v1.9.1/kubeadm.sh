@@ -65,7 +65,7 @@ EOF
     #查看docker版本
     #yum list docker-engine showduplicates
     #安装docker
-    yum install -y docker-engine-1.12.6-1.el7.centos.x86_64
+    yum install -y docker-engine-17.05.0.ce-1.el7.centos.x86_64
     echo "Docker installed successfully!"
     #docker存储目录
     if [ ! -n "$DOCKER_GRAPH" ]; then
